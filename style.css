@@ -6,11 +6,13 @@ body{
     line-height: 1.5;
     
     margin: 0px;
-    padding-top: 32px;
+
     
 }
 ul{
     list-style-type: none;
+    margin: 0%;
+    padding: 0%;
 }
 a{
     text-decoration: none;
@@ -19,11 +21,7 @@ h1, h2, h3, p{
     margin: 0px;
     padding: 0px;
 }
-.container{
-    background-size: 1440px;
-    background-repeat: no-repeat;
-    background-image: url(./hero-bg-2x.jpg);
-}
+
 
 
 /* Початок стилів хедера */
@@ -39,6 +37,7 @@ h1, h2, h3, p{
     padding: 4px 30px; 
     width: auto;
     align-items: center;
+    
 }
 
 .logo{
@@ -54,6 +53,7 @@ h1, h2, h3, p{
 .sections-btn-list{
     display: flex;
     gap: 4px; 
+    padding: 0px;
 }
 .section-btn{
     width: 91px;
@@ -112,6 +112,10 @@ font-weight: 500;
 line-height: 80px;
 letter-spacing: 0.02em;
 text-align: center;
+min-width: 1001px;
+margin-right: auto;
+margin-left: auto;
+margin: 0px 169px 0px 169px;
 }
 .hero-par{
 font-family: 'Inter';
@@ -121,17 +125,109 @@ letter-spacing: 0em;
 text-align: center;
 }
 .hero-btn{
-
+    width: 179px;
+    height: 52px;
+    padding: 16px, 40px, 16px, 40px;
+    border-radius: 15px;
+    border: none;
+    color: #FBFBFB;
+    margin: 0px 580px;
+    background-color: #1B414B;
+    transition: background-color 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: color 700ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.hero-btn:hover:focus{
+    background-color: #FBFBFB;
+    color: #1B414B;
 }
 .hero{
-    margin: 165px 0px 90px;
-    padding: 0px 220px 0px 220px;
+    /* margin: 165px 0px 90px; */
+    padding: 235px 0px 180px 0px;
     display: flex;
     flex-direction: column;
     gap: 48px;
+    width: 1440px;
+    margin: auto;
+    align-items: center;
     
 }
 .hero-par{
-    width: 600px;
-    text-align: center;
+    font-family: 'Inter';
+font-size: 16px;
+font-weight: 300;
+line-height: 1.5;
+letter-spacing: 0em;
+max-width: 597px;
+text-align: center;
+margin-left: 371px;
+margin-right: 371px;
+}
+.main-upp-section{
+    background-size: 1440px;
+    background-repeat: no-repeat;
+    background-image: url(./hero-bg-2x.jpg);
+    background-size: cover;
+    padding-top: 32px;
+}
+.des-section{
+    background-color: #1B414B;
+    height: 675px;
+    margin-bottom: 232px;
+}
+
+.main-info{
+    margin: -20px 358px 300px;
+    padding-top: 50px;
+    padding: 0px 50px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 189px;
+    background-color: #FBFBFB;
+}
+.second-header{
+    font-family: 'Inter';
+font-size: 48px;
+font-weight: 500;
+line-height: 48px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #1B414B;
+padding-top: 50px;
+margin-bottom: 90px;
+
+}
+.par-list{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+.first-par{
+    font-family: 'Inter';
+font-size: 23px;
+font-weight: 400;
+line-height: 1;
+letter-spacing: -0.02em;
+text-align: left;
+color: #1B414B;
+}
+.second-par{
+    font-family: 'Inter';
+font-size: 13px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: -0.02em;
+text-align: left;
+color:  #040306;
+
+
+}
+.yacht-img{
+    width: 1340px;
+    position: absolute;
+    left: 0;
+    height: 470px;
 }
