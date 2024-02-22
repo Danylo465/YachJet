@@ -512,3 +512,35 @@ margin: 0 auto;
   color: #1B414B;
   background-color: #FBFBFB;
 }
+
+.short-section{
+  margin-top: 150px;
+  height: auto;
+}
+
+.blocks-container{
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
+  max-width: 768px;
+  flex-direction: column;
+}
+.list-block{
+  display: flex;
+  
+  padding: 90px 50px;
+  border: none;
+  border-radius: 24px;
+  background-color: #1B414B;
+
+}
+.blocks-list{
+ 
+  flex-wrap: wrap;
+display: flex;
+gap: 24px;
+align-content: space-between;
+}
+.mini-blocks{
+  width: calc((100% - 50px * 2) / 4);
+}
